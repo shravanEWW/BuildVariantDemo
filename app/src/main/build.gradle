@@ -1,0 +1,19 @@
+android {
+    flavorDimensions "tier"
+    productFlavors {
+        free {
+            dimension "tier"
+        }
+        paid {
+            dimension "tier"
+        }
+    }
+    buildTypes {
+        debug {
+            // ...
+        }
+        release {
+            // ...
+        }
+    }
+}
